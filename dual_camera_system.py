@@ -51,7 +51,7 @@ class IntegratedSystem:
         """初始化系统"""
         # 初始化摄像头索引
         self.food_camera_index = 0  # 食物识别摄像头
-        self.face_camera_index = 0  # 人脸识别摄像头
+        self.face_camera_index = 2  # 人脸识别摄像头
         
         # 初始化人脸识别相关组件
         self.face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
